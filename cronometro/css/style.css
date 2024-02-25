@@ -1,0 +1,72 @@
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(124, 122, 212);
+}
+
+h1{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor-principal{
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    min-height: 90px ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 153, 218) ;
+    border-radius: 10%;
+}
+
+.contenedor-botones {
+    padding: 10px;
+
+}
+
+#cronometro {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    user-select: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+}
+
+.boton {
+    width: 80px;
+    height: 80px ;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 70%;
+
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: #086d08;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #18a718;
+}
+
+#boton-reiniciar {
+    background-color: rgb(172, 15, 15);
+}
+
