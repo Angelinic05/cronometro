@@ -1,6 +1,6 @@
 ---
 
-# Cronómetro Simple
+# Cronómetro
 
 Este es un cronómetro simple creado utilizando HTML, CSS y JavaScript. Permite iniciar, pausar y reiniciar el tiempo.
 
